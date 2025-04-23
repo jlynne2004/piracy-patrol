@@ -15,7 +15,7 @@ Welcome to **Plot Twists & Pivot Tables**, your cozy-caffeinated tech hub for in
 
 Navigate to the tool you need from the sidebar:
 - **Backlist Extractor**: Quickly compile your book catalog *(Coming Soon!)*
-- **Piracy Patrol**: Scan for pirate links and generate reports *(Coming Soon!)*
+- **Piracy Patrol**: Scan for pirate links and generate reports [Live!](https://share.streamlit.io/jessiesreadingcorner/plot-twists-and-pivot-tables/main/pages/1_Piracy_Patrol.py)
 - **Release Day Countdown**: Track ARCs, promo tasks, and deadlines *(Coming Soon!)*
 - **Series Bible Helper**: Keep character and world details straight *(Coming Soon!)*
 
