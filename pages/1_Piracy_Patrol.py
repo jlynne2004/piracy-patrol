@@ -1,4 +1,4 @@
-# pages/2_Piracy Patrol.py
+# pages/1_Piracy_Patrol.py
 import streamlit as st
 from googlesearch import search
 import pandas as pd
