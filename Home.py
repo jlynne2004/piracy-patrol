@@ -17,7 +17,7 @@ Navigate to the tool you need from the sidebar:
 - **Backlist Extractor**: Quickly compile your book catalog *(Coming Soon!)*
 - **Piracy Patrol**: Scan for pirate links and generate reports *(Coming Soon!)*
 - **Release Day Countdown**: Track ARCs, promo tasks, and deadlines *(Coming Soon!)*
-- **Series Bible Helper**: Keep character and world details straight *(<i>Coming Soon!</i>)*
+- **Series Bible Helper**: Keep character and world details straight *(Coming Soon!)*
 
 More tools coming soon. Got any ideas or feature requests? [Email me](mailto:jessiesreadingcorner@gmail.com) or [Fill out this form](https://forms.gle/pdgBZHfAtGNQDQuFA)
 """)
