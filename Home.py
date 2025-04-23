@@ -19,7 +19,7 @@ Navigate to the tool you need from the sidebar:
 - **Release Day Countdown**: Track ARCs, promo tasks, and deadlines
 - **Series Bible Helper**: Keep character and world details straight
 
-More tools coming soon. Got any ideas or feature requests? [Rmail me](mailto:jessiesreadingcorner@gmail.com) or [Fill out this form](https://forms.gle/pdgBZHfAtGNQDQuFA)
+More tools coming soon. Got any ideas or feature requests? [Email me](mailto:jessiesreadingcorner@gmail.com) or [Fill out this form](https://forms.gle/pdgBZHfAtGNQDQuFA)
 """)
 
 # pages/2_Piracy Patrol.py
