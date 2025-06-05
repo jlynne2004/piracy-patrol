@@ -42,9 +42,9 @@ if st.button("Scan for Piracy"):
 
                     col1, col2 = st.columns(2)
                     with col1:
-                        st.button(label="Report This Page", url="https://www.google.com/webmasters/tools/dmca-notice", key=f"report-{i}")
+                        st.markdown(f"[🔗 Report This Page](https://www.google.com/webmasters/tools/dmca-notice)", unsafe_allow_html=True)
                     with col2:
-                        st.button(label="Lookup Domain Info (via WHOIS)", url="https://lookup.icann.org/en", key=f"whois-{i}")
+                        st.markdown(f"[🔍 Lookup Domain Info (via WHOIS)](https://lookup.icann.org/en)", unsafe_allow_html=True)
 
                 st.markdown("---")
             else:
