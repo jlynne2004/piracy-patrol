@@ -39,12 +39,14 @@ if st.button("Scan for Piracy"):
             if suspicious_links:
                 for i, link in enumerate(suspicious_links, 1):
                     st.markdown(f"**{i}.** [{link}]({link})")
-                    
+
                     col1, col2 = st.columns(2)
                     with col1:
                         st.button("Report This Page", "https://www.google.com/webmasters/tools/dmca-notice")
                     with col2:
                         st.button("Lookup Domain Info (via WHOIS)", "https://lookup.icann.org/en")
+
+                st.markdown("---")
             else:
                 st.success("No suspicious links found in the top 20 results. Looking good!")
         except Exception as e:
