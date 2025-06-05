@@ -38,6 +38,8 @@ if st.button("Scan for Piracy"):
             # Display the suspicious links as buttons
             if suspicious_links:
                 for i, link in enumerate(suspicious_links, 1):
+                    st.markdown(f"**{i}.** [{link}]({link})")
+                    
                     col1, col2 = st.columns(2)
                     with col1:
                         st.button("Report This Page", "https://www.google.com/webmasters/tools/dmca-notice")
