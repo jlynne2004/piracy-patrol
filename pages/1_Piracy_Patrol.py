@@ -3,6 +3,7 @@ import streamlit as st
 from googlesearch import search
 import pandas as pd
 import re
+from urllib.parse import urlparse
 
 st.title("Piracy Patrol")
 st.subheader("Scan. Report. Reclaim your books.")
@@ -48,9 +49,9 @@ if st.button("Scan for Piracy"):
                     st.markdown("- [Report This Page](https://www.google.com/webmasters/tools/dmca-notice) | [Lookup Domain Info (via WHOIS)](https://lookup.icann.org/en)")
                     st.markdown("---")
             else:
-                st.success("No suspicious links found in the top 20 results. Looking good!")
+                st.success("No suspicious links found in the top 20 results. Looking good!") """
         except Exception as e:
-            st.error(f"An error occurred while searching: {e}") """
+            st.error(f"An error occurred while searching: {e}")
 
 # Hall of Infamy
 st.markdown("---")
