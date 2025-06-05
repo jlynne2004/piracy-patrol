@@ -34,15 +34,23 @@ if st.button("Scan for Piracy"):
             st.markdown("---")
             st.markdown(f"### Found {len(suspicious_links)} Suspicious Link(s)")
 
-            if suspicious_links:
+            # Get display buttons to report or lookup suspicious links
+            col1, col2 = st.columns(2)
+            with col1:
+                st.button("Report This Page", "https://www.google.com/webmasters/tools/dmca-notice")
+            with col2:
+                st.button("Lookup Domain Info (via WHOIS)", "https://lookup.icann.org/en")
+
+            # Display the suspicious links
+            """ if suspicious_links:
                 for i, link in enumerate(suspicious_links, 1):
                     st.markdown(f"**{i}.** [{link}]({link})")
-                    st.markdown("- [Report This Page](https://www.google.com/webmasters/tools/dmca-notice) | [Report Site (via WHOIS)](https://lookup.icann.org/en)")
+                    st.markdown("- [Report This Page](https://www.google.com/webmasters/tools/dmca-notice) | [Lookup Domain Info (via WHOIS)](https://lookup.icann.org/en)")
                     st.markdown("---")
             else:
                 st.success("No suspicious links found in the top 20 results. Looking good!")
         except Exception as e:
-            st.error(f"An error occurred while searching: {e}")
+            st.error(f"An error occurred while searching: {e}") """
 
 # Hall of Infamy
 st.markdown("---")
