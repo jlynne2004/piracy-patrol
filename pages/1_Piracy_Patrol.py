@@ -13,7 +13,7 @@ st.markdown("""
             This tool is free for self-service use, but if you would like to support its development, consider [buying me a coffee](https://www.buymeacoffee.com/jessiesreadingcorner).
             If you would like someone else to monitor your books for you, please [email me](mailto:jess@jesshaydenconsulting.com) and we can work out a solution for you. 
             
-            While I can't file DMCA reports for you, I will give you the information you need to file the reports yourself. Please note, I do charge $20 for this service.
+            While I can't file DMCA reports for you, I will give you the information you need to file the reports yourself. **Please note, I do charge $20 for this service.**
             """)
 st.subheader("Scan. Report. Reclaim your books.")
 
