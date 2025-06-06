@@ -6,6 +6,13 @@ import re
 from urllib.parse import urlparse
 
 st.title("Piracy Patrol")
+st.markdown("""
+            The indie author's secret weapon against book piracy.
+            Scan the web for pirate links, report them, and reclaim your books.
+            
+            This tool is free for self-service use, but if you would like to support its development, consider [buying me a coffee](https://www.buymeacoffee.com/jessiesreadingcorner).
+            If you would like someone else to monitor your books for you, please [email me](mailto:jess@jesshaydenconsulting.com) and we can work out a solution for you. I do charge $20 for this service.
+            """)
 st.subheader("Scan. Report. Reclaim your books.")
 
 book_title = st.text_input("Book Title")
